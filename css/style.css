@@ -20,5 +20,15 @@
     height: 30px;
     background-color: #FC9F44;
     color: #220902;
-        
+}
+
+.cart{
+    height:30px;
+    width:30px;
+
+}
+
+figcaption{
+    margin-left: 91%;
+    margin-top:-3%;
 }
