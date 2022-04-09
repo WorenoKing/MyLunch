@@ -41,8 +41,12 @@ figcaption{
     padding-top: 3%;
     padding-bottom: 3%;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row div{
     display: inline-block;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 #logotipo{
@@ -57,16 +61,17 @@ figcaption{
 }
 
 #nomeempresa{
-    margin-left: -24%;
-    margin-top:-4%;
+    width: 300px;
     background: rgba(255, 0, 0, 0.26);
 }
 
 #status{
-    border-radius: 1em;
-    margin-right: 28%;
-    margin-top: -5%;
-    margin-left: 55%;
-  border-style: solid;
-  background: rgba(255, 0, 0, 0.26);
+    width: 120px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background: rgba(255, 0, 0, 0.26);
 }
