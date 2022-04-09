@@ -16,27 +16,29 @@
                 <input type="submit" class="botao" value="LOGIN">
             </div> 
             <figcaption>
-              <a href="">
+            <a href="">
                 <img class="cart" src="./img/icone-carrinho-de-compras-shopping-cart-crib-furniture-transparent-png-306146.png">
             </a>      
             </figcaption>            
        </div>
+
        <!-- área de personalização da empresa parceira-->
-       <div class="contentlogo">
-           <a href="">
-       <div class="logotipo">
-           <h2>Insira a sua imagem aqui</h2>
-       </div>
-      </a>
-       <div class="nomeempresa">
-           <a href="">
-       <h1>Coloque o nome da sua empresa aqui</h1>
-    </a>
-    </div>
-    <div class="status">
-        <h2>ABERTO</h2>
-    </div>
+       <div class="row">
+        
+            <div id="logotipo">
+                <h2>Insira a sua imagem aqui</h2>
+            </div>
+       
+            <div id="nomeempresa">
+                <h1>Coloque o nome da sua empresa aqui</h1>
+            </div>
+
+            <div id="status">
+                <h2>ABERTO</h2>
+            </div>
     
+        </div>
+
     </div>
     </div>
 </body>
