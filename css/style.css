@@ -32,3 +32,30 @@ figcaption{
     margin-left: 91%;
     margin-top:-3%;
 }
+
+.logotipo{
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
+    margin-right:80%;
+    text-align:center;
+    
+}
+
+.contentlogo{
+    margin-top:1%;
+    text-align: center;
+}
+
+.nomeempresa{
+    margin-left: -24%;
+    margin-top:-4%;
+}
+
+.status{
+    border-radius: 1em;
+    margin-right: 28%;
+    margin-top: -5%;
+    margin-left: 55%;
+  border-style: solid;
+}
