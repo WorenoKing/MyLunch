@@ -50,9 +50,6 @@ figcaption{
 }
 
 #logotipo{
-    border-radius: 1em;
-    border-color: black;
-    border-style: solid;
     text-align:center;
     background: rgba(255, 0, 0, 0.26);
     margin: 0;
@@ -61,7 +58,7 @@ figcaption{
 }
 
 #nomeempresa{
-    width: 300px;
+    width: 500px;
     background: rgba(255, 0, 0, 0.26);
 }
 

@@ -26,7 +26,7 @@
        <div class="row">
         
             <div id="logotipo">
-                <h2>Insira a sua imagem aqui</h2>
+            <img src="img/logotipo.png" alt="..." width="250" height="250">
             </div>
        
             <div id="nomeempresa">
