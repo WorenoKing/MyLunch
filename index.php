@@ -13,7 +13,7 @@
         <div class="header">
             <h3>MyLunch</h3>
             <div class="login">
-                <input type="submit" class="botao" value="LOGIN">
+                <input  type="submit" class="botao" value="LOGIN">
             </div> 
             <figcaption>
             <a href="">
@@ -26,11 +26,11 @@
        <div class="row">
         
             <div id="logotipo">
-            <img src="img/logotipo.png" alt="..." width="250" height="250">
+            <a href=""> <img src="img/logotipo.png" alt="..." width="250" height="250"></a>
             </div>
        
             <div id="nomeempresa">
-                <h1><strong>Nome Empresa</strong></h1>
+                <a href=""><h1><strong>Nome Empresa</strong></h1></a>
             </div>
 
             <div id="status">
@@ -41,6 +41,18 @@
 
     </div>
     </div>
+    <!--área de personalização do pedido do lado do parceiro-->
+    <div class="sessaocorpo">
+    <h1>Promoções do dia</h1>
+    <div class="areapedido col-sm-3">
+    <a href=""><h1>Nome do pedido</h1></a>
+    <a href=""><h2>Descrição do pedido</h2></a>
+    <a href=""><h2>Valor pedido</h2></a>
+     <div class="iconpedido">
+   <a href=""><img class="plus" src="img/iconplus.jpg"></a>
+   </div>   
+    </div>
+   </div>
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

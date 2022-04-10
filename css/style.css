@@ -80,3 +80,30 @@ figcaption{
     border-style: solid;
     background: rgba(255, 0, 0, 0.26);
 }
+
+.sessaocorpo{
+    padding-left: 2%;
+}
+
+.areapedido{
+    border-style:solid;
+    border-radius: 5px;
+    margin-right: 65%; 
+    padding-left:2%;
+    
+    
+}
+
+.iconpedido{
+    margin-top:-26%;
+    float:right;
+    margin-right: 3%;
+    
+    
+}
+.plus{
+    height:80px;
+    width:80px;
+    border-style:solid;
+    margin-left:-40%;
+}
