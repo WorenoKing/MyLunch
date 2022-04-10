@@ -30,7 +30,7 @@
             </div>
        
             <div id="nomeempresa">
-                <h1>Coloque o nome da sua empresa aqui</h1>
+                <h1><strong>Nome Empresa</strong></h1>
             </div>
 
             <div id="status">
