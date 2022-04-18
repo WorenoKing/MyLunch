@@ -18,7 +18,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="carrinho" width="25" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
             </svg></a>
-            <button type="button" action="#" class="menu-botao" href="facebook.com">LOGIN</button>
+            <a href=""><button type="button" action="#" class="menu-botao">LOGIN</button></a>
         </div>          
 </header>
 <!--Fim Menu Superior-->
@@ -26,7 +26,7 @@
 
 <div class="info-proprietario">
     <div class="part-1">
-        <img class="logo-proprietario" width="250px" heidht="250" src="img/marca.png">
+        <img class="logo-proprietario" width="250px" heidht="250" src="img/logotipo.png">
     </div>
     <div class="part-2">
         <p class="nome-proprietario"><strong>FAUSTINO ARTSANAL</strong></p>
@@ -37,17 +37,19 @@
 
 </div>
 
-<div>
-    <nav>
-        <ul class="menu-ul">
-            <li><input class="loopa" type="search" width="100px" height="50px" placeholder="Buscar"></li>
-            <li><a href="#">PROMOÇÕES DO DIA</a></li>
-            <li><a href="#">O SUPER LANCHE</a></li>
-            <li><a href="#">HAMBURGUERES</a></li>
-            <li><a href="#">BEBIDAS</a></li>
-            <li><a href="#">EXEMPLO</a></li>
-        </ul>
-    </nav>
+<div class="sticky">
+    <div class="menu-2">
+        <nav>
+            <ul class="menu-ul">
+                <li><input class="loopa" type="search" width="100px" height="50px" placeholder="Buscar"></li>
+                <li><a href="#">PROMOÇÕES DO DIA</a></li>
+                <li><a href="#">O SUPER LANCHE</a></li>
+                <li><a href="#">HAMBURGUERES</a></li>
+                <li><a href="#">BEBIDAS</a></li>
+                <li><a href="#">EXEMPLO</a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 
 
@@ -79,9 +81,15 @@
        
         <div class="box4">quarto</div>
 
+</div>
+
+<footer>
+    <div id="rodape">
+        <div class="description">
+            
+        </div>
     </div>
-
-
+</footer>
     
 </body>
 </html>
