@@ -201,3 +201,45 @@ header {
     display: flex;
 
 }
+/* Footer */
+#rodape {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    background: #220902;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    margin-top: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.description a {
+    color: #FC9F44;
+    font-size: 3vh;
+    width: 100%;
+    padding: 5px;
+}
+.topo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 13px;
+}
+.topo input{
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    
+    background-color: #fa9f42;
+    border: 1px solid;
+    cursor: pointer;
+}
+/* End Footer*/

@@ -80,13 +80,16 @@
         <div class="box3">terceiro</div>
        
         <div class="box4">quarto</div>
-
 </div>
 
 <footer>
     <div id="rodape">
         <div class="description">
-            
+            <a href=""><strong>www.mylunch.com.br</strong></a>
+            <br>
+        </div>
+        <div class="topo">
+            <a href="#"><input type="button" class="btn" value="Topo"></a>
         </div>
     </div>
 </footer>
