@@ -5,7 +5,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    height: 250vh;
 }
 
 /*Menusuperior*/
@@ -44,7 +43,6 @@ header {
     height: 30px;
     background-color: #fa9f42;
     border: 1px solid;
-    cursor: pointer;
 }
 /*Fim Menusuperior*/
 
@@ -92,47 +90,27 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
-/*Fim Imagem, nome, status parceiro*/
 
 
-/* Segundo Menu */
-.sticky{
-    position: sticky;
-    top: 0;
-}
-.menu-2 {
-    padding: 30px;
+nav {
+    padding: 1px;
     background-color: #fa9f42;
-    position: relative;
 }
-.menu-2 nav {
-    position: absolute;
-    margin-top: -30px;
+a{
+    color: black;
+    
 }
-.menu-2 a{
-    color: rgb(0, 0, 0);  
-}
-.menu-2 li a:hover {
-    border-bottom: 2px solid rgb(255, 255, 255);
-    color: white;
-    transition: all .2s;
-}
-.menu-2 input{
-    cursor: pointer;
-    padding: 12px;
-    border-radius: 10px;
-}
-.menu-2 nav li{
+
+nav li{
     margin: 5px 10px;
     display: inline;
 }
-.menu-2 .loopa {
+.loopa {
     width: 220px;
     height: 30px; 
 }
-/* Fim Segundo Menu */
+
 
 
 
@@ -201,45 +179,27 @@ header {
     display: flex;
 
 }
-/* Footer */
-#rodape {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 200px;
-    bottom: 0;
-    background: #220902;
-    justify-content: center;
-    align-items: center;
+
+.icon-plus{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-right:2%;
+    border-radius:5px;
+    border-style:solid;
 }
-.description {
-    margin-top: 5%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    
-}
-.description a {
+
+.footer{
+    background-color: #220902;
     color: #FC9F44;
-    font-size: 3vh;
-    width: 100%;
-    padding: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom:1%;
+    position:relative;
+    text-align:center;
 }
-.topo {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    right: 13px;
-}
-.topo input{
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-top: 15px;
-    width: 80px;
-    height: 30px;
+
+.ul-list:hover{
+    text-decoration: underline;
     
-    background-color: #fa9f42;
-    border: 1px solid;
-    cursor: pointer;
 }
-/* End Footer*/
