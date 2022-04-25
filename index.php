@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <title>Mylunch</title>
-    <link rel="icon" type="image.png" href="img/marca.png" />
+    <link rel="icon" type="image.png" href="img/marca.png">
 </head>
 <body>
 <!--Menu Superior-->
@@ -38,74 +38,83 @@
 
 </div>
 
-<div>
-    <nav>
-        <ul class="menu-ul">
-            <li><input class="loopa" type="search" width="100px" height="50px" placeholder="Buscar"></li>
-            <li><a class="ul-list" href="#">PROMOÇÕES DO DIA</a></li>
-            <li><a class="ul-list" href="#">O SUPER LANCHE</a></li>
-            <li><a class="ul-list" href="#">HAMBURGUERES</a></li>
-            <li><a class="ul-list" href="#">BEBIDAS</a></li>
-            <li><a class="ul-list" href="#">EXEMPLO</a></li>
+
+<main>
+    <div class="sticky">
+        <div class="menu-2">
+            <nav>
+                <ul class="menu-ul">
+                    <li><input class="loopa" type="search" width="100px" height="50px" placeholder="&#128269; Buscar"></li>
+                    <li><a href="#">PROMOÇÕES DO DIA</a></li>
+                    <li><a href="#">O SUPER LANCHE</a></li>
+                    <li><a href="#">HAMBURGUERES</a></li>
+                    <li><a href="#">BEBIDAS</a></li>
+                    <li><a href="#">EXEMPLO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    
+<div class="section">
+    <h1>PROMOÇÕES DO DIA</h1>
+        <ul class="section-box">
+            <li class="card">
+               <p class="nome-produto">nome do produto</p>
+               <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+               <p class="valor-produto">R$99,00</p>
+               <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+            </li>
+            <li class="card">
+                <p class="nome-produto">nome do produto</p>
+                <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+                <p class="valor-produto">R$99,00</p>
+                <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+             </li>
+             <li class="card">
+                <p class="nome-produto">nome do produto</p>
+                <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+                <p class="valor-produto">R$99,00</p>
+                <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+             </li>
         </ul>
-    </nav>
 </div>
 
-
-
-<h1>PROMOÇÕES DO DIA</h1>
-
-<div class="exemplo">
-        <div class="box1">
-            
-        <div >
-           <h2 style="font-size: 25px"> BURGUES COM FRITAS</h2>
-           <p style="font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
-           <h2 style="font-size: 25px">R$:15,90</h2>
-            </div>
-            <div class="icon-plus">
-            <a href="#" target="_blank">
-                <img src="img/iconplus.jpg" width="80px" height="80px">
-            </a>
-           </div>
-        </div>
-        
-        <div class="box2">
-            
-        <div >
-           <h2 style="font-size: 25px"> BURGUES COM FRITAS</h2>
-           <p style="font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
-           <h2 style="font-size: 25px">R$:15,90</h2>
-            </div>
-            <div class="icon-plus">
-            <a href="#" target="_blank">
-            <img src="img/iconplus.jpg" width="80px" height="80px" >
-            </a>
-           </div>
-        </div>
-      
-        <div class="box3">
-            terceiro
-            <div class="icon-plus">
-            <a href="#" target="_blank">
-            <img src="img/iconplus.jpg" width="80px" height="80px"></a>
-            </div>
-        </div>
-       
-        <div class="box4">
-            quarto
-            <div class="icon-plus">
-            <a href="#" target="_blank">
-            <img src="img/iconplus.jpg" width="80px" height="80px"></a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="footer">
-        <h1>www.mylunch.com.br</h1>
-    </div>
-
+<div class="section">
+    <h1>PROMOÇÕES DO DIA</h1>
+        <ul class="section-box">
+            <li class="card">
+               <p class="nome-produto">nome do produto</p>
+               <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+               <p class="valor-produto">R$99,00</p>
+               <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+            </li>
+            <li class="card">
+                <p class="nome-produto">nome do produto</p>
+                <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+                <p class="valor-produto">R$99,00</p>
+                <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+             </li>
+             <li class="card">
+                <p class="nome-produto">nome do produto</p>
+                <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sequi dicta maiores dignissimo</p>
+                <p class="valor-produto">R$99,00</p>
+                <img class="imagem-produto" src="img/burguer.png" width="190" height="190" alt="...">
+             </li>
+        </ul>
+</div>
 
     
+<footer>
+    <div id="rodape">
+        <div class="description">
+            <a href=""><strong>www.mylunch.com.br</strong></a>
+            <br>
+        </div>
+        <div class="topo">
+            <a href="#"><input type="button" class="btn" value="Topo"></a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

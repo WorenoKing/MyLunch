@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    
 }
 
 /*Menusuperior*/
@@ -43,6 +44,7 @@ header {
     height: 30px;
     background-color: #fa9f42;
     border: 1px solid;
+    cursor: pointer;
 }
 /*Fim Menusuperior*/
 
@@ -90,116 +92,160 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
+/*Fim Imagem, nome, status parceiro*/
 
 
-nav {
-    padding: 1px;
-    background-color: #fa9f42;
+/* Segundo Menu */
+.sticky{
+    position: sticky;
+    top: 0;
 }
-a{
-    color: black;
-    
+.menu-2 {
+    padding: 30px;
+    background: #fa9f42;
+    position: relative;
 }
-
-nav li{
+.menu-2 nav {
+    position: absolute;
+    margin-top: -30px;
+}
+.menu-2 a{
+    color: rgb(0, 0, 0);  
+}
+.menu-2 li a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition: all .2s;
+}
+.menu-2 input{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+}
+.menu-2 nav li{
     margin: 5px 10px;
     display: inline;
 }
-.loopa {
+.menu-2 .loopa {
     width: 220px;
     height: 30px; 
 }
-
+/* Fim Segundo Menu */
 
 
 
 /* lista de produtos */
+.section {
+    margin: 10px;
+}
+.section h1 {
+    width: 400px;
+    padding: 20px 20px 0px 20px; 
+    float: inline-start;
+}
+.section-box /* ul */{
+    width: 95%;
+    margin: 0 5px;
+}
+.card /* li */{
+    position: relative;
+    width: 680px;
+    height: 210px;
+    display: inline-block;
+    padding: 13px 23px;
+    margin-left: 16px;
+    margin-bottom: 19px;
+    vertical-align: top;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.card:hover {
+    border: 4px solid #fa9f42;
+    transition: all .1s;
+}
+.card:active {
+    border: 4px solid #2a5111;
+    background: #2a5111;
+}
 
-.exemplo{
+.nome-produto {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.descricao-produto {
+    position: absolute;
+    box-sizing: border-box;
+    color: #000000ac;
+    margin: 0;
+    font-size: 18px;
+    width: 450px;
+    top: 73px;
+}
+.valor-produto {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+    bottom: 12px;
+}
+.imagem-produto {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 10px;
+    right: 5px;
+    top: 7px;
+}
+
+
+/* Footer */
+#rodape {
+    position: relative;
+    display: flex;
     width: 100%;
-    height: auto;
-    display : flex;
-    flex-direction : row ;
-    justify-content : space-around;
-    flex-flow : wrap;
-
+    height: 200px;
+    bottom: 0;
+    background: #220902;
+    justify-content: center;
+    align-items: center;
 }
-
-
-.box1{
-
-    width: 45%;
-    height: 250px;
+.description {
+    margin-top: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
     
-    margin: 20px;
-    box-sizing: border-box;
-    font-size:  50px;
-    border-radius: 5px;
-    border: 2px solid black;
-    display: flex;
-
 }
-.box2{
-
-    width: 45%;
-    height: 250px;
-    background: rgb(243, 239, 239);
-    margin: 20px;
-    box-sizing: border-box;
-    font-size:  50px;
-    border-radius: 5px;
-    border: 2px solid black;
-    display: flex;
-
-}
-.box3{
-
-    width: 45%;
-    height: 250px;
-    background: rgb(243, 239, 239);
-    margin: 20px;
-    box-sizing: border-box;
-    font-size:  50px;
-    border-radius: 5px;
-    border: 2px solid black;
-    display: flex;
-
-}
-.box4{
-    
-    width: 45%;
-    height: 250px;
-    background: rgb(243, 239, 239);
-    margin: 20px;
-    box-sizing: border-box;
-    font-size:  50px;
-    border-radius: 5px;
-    border: 2px solid black;
-    display: flex;
-
-}
-
-.icon-plus{
-    margin-top: 10%;
-    margin-bottom:10%;
-    margin-right:2%;
-    border-radius:5px;
-    border-style:solid;
-}
-
-.footer{
-    background-color: #220902;
+.description a {
     color: #FC9F44;
-    padding-top: 5px;
-    font-size: 20px;
-    padding-left: 15px;
-    padding-bottom:1%;
-    position:relative;
-    text-align:center;
+    font-size: 3vh;
+    width: 100%;
+    padding: 5px;
 }
+.topo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 13px;
+}
+.topo input{
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
 
-.ul-list:hover{
-    text-decoration: underline;
-    
+    background-color: #fa9f42;
+    border: 1px solid;
+    cursor: pointer;
 }
+/* End Footer*/
