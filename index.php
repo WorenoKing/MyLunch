@@ -57,6 +57,7 @@
     
     
 <div class="section">
+    
     <h1>PROMOÇÕES DO DIA</h1>
         <ul class="section-box">
             <li class="card">
@@ -79,9 +80,9 @@
              </li>
         </ul>
 </div>
-
 <div class="section">
     <h1>PROMOÇÕES DO DIA</h1>
+        
         <ul class="section-box">
             <li class="card">
                <p class="nome-produto">nome do produto</p>
@@ -103,7 +104,6 @@
              </li>
         </ul>
 </div>
-
     
 <footer>
     <div id="rodape">
